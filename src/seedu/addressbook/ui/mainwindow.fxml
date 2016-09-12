@@ -14,7 +14,7 @@
 
         <TextArea fx:id="outputConsole" editable="false" wrapText="true" VBox.vgrow="ALWAYS">
         </TextArea>
-      <TextField alignment="CENTER" disable="true" editable="false" text="Done by Lee Han Cheng @ 2016">
+      <TextField fx:id="outputCredit" alignment="CENTER" disable="true" editable="false">
          <font>
             <Font size="11.0" />
          </font>

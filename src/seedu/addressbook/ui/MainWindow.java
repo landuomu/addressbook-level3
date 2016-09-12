@@ -39,6 +39,9 @@ public class MainWindow {
 
     @FXML
     private TextField commandInput;
+    
+    @FXML
+    private TextField outputCredit;
 
 
     @FXML
@@ -90,6 +93,10 @@ public class MainWindow {
     public void displayWelcomeMessage(String version, String storageFilePath) {
         String storageFileInfo = String.format(MESSAGE_USING_STORAGE_FILE, storageFilePath);
         display(MESSAGE_WELCOME, version, MESSAGE_PROGRAM_LAUNCH_ARGS_USAGE, storageFileInfo);
+    }
+    
+    public void displayCredit() {
+        outputCredit.setText(MESSAGE_CREDITS);
     }
 
     /**
