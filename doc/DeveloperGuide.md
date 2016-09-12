@@ -76,6 +76,29 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
+  
+#### Use case: Edit tag
+
+**MSS**
+
+1. User requests to edit tag from `friends` to `buddies`
+2. AddressBook shows a list of persons with tag `friends`
+3. AddressBook asks for confirmation to edit tag
+4. User confirms confirmation to edit tag
+5. AddressBook edits the tag <br>
+Use case ends.
+
+**Extensions**
+
+2a. `friends` tag does not exist
+
+> 2a1. AddressBook shows an error message <br>
+  Use case ends.
+
+4a. User cancels confirmation
+
+> 4a1. AddressBook shows a cancellation message <br>
+  Use case ends.
 
 ## Appendix C : Non Functional Requirements
 
